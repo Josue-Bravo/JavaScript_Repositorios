@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro vetor[] = {2,5,1,3,4,9,7,8,10,6},n,t,bancoN
+		inteiro vetor[] = {2,5,1,3,4,9,7,8,10,6},n
 		inteiro vetor_saida[10]
 		inteiro maior_numero = 10, contador = 0
 
@@ -33,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 412; 
+ * @POSICAO-CURSOR = 77; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
