@@ -14,13 +14,14 @@ programa
 			inteiro n_atual = vetor[n]
 			soma += n_atual
 			
-			se (n % 2 == 0)
+			se (n_atual % 2 == 0)
 			{
 				
 				vetor_par[p] = n_atual
 				p += 1
 			}
-			senao
+			
+			se (n % 2 != 0)
 			{
 				vetor_impar[i] = n_atual
 				i += 1
@@ -28,7 +29,7 @@ programa
 			
 			media = soma/10
 		}
-		escreva("Numeros nos indicies pares: ")
+		escreva("Numeros pares: ")
 		para (n = 0; n < 5; n++)
 		{
 			escreva("| ",vetor_par[n]," |")
@@ -51,7 +52,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 704; 
+ * @POSICAO-CURSOR = 341; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
